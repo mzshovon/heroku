@@ -1,9 +1,9 @@
 {
 	"applinks": {
-		"apps": [],
+		"apps": ["stanbic-ibtc-stockbroking-app"],
 		"details": [
 			{
-				"appID": "xxx.xxx.xxx",
+				"appID": "1517232753",
 				"paths": [ "*"]
 			}
 		]

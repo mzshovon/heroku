@@ -11,22 +11,14 @@
     <a type="button" class="btn btn-lg btn-default" href="https://apps.apple.com/gb/app/stanbic-ibtc-stockbroking-app/id1517232753"><span class="glyphicon glyphicon-download"></span> Stanbic Stocks - iOS</a>
   </div>
  <script>
-   $(window).on('load',function () {
-     document.location = 'yourAppScheme://';
-     setTimeout( function()
-     {
-       if( confirm( 'You do not seem to have Your App installed, do you want to go download it now?'))
-       {
-         document.location = 'https://apps.apple.com/gb/app/stanbic-ibtc-stockbroking-app/id1517232753';
-       }
-     }, 300);
 
 
-   })
-   // function startMyApp()
-   // {
-   //
-   // }
+   if (window.location = "appname://"){
+       console.log('ok');
+   }
+   else{
+       window.location = "https://apps.apple.com/gb/app/stanbic-ibtc-stockbroking-app/id1517232753";
+   }
  </script>
 </div>
 
